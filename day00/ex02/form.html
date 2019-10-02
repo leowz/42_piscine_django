@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Form HTML</title>
+  <script src="popup.js"></script>
+</head>
+<body>
+	<form>
+		First name: <input type="text" id="firstname"><br />
+		<br />
+		Name: <input type="text" id="name"><br />
+		<br />
+		Age: <input type="number" id="age"><br />
+		<br />
+		Phone: <input type="tel" id="phone"><br />
+		<br />
+		Email: <input type="email" id="email"><br />
+		<br />
+		Student at 42 ?: <input type="checkbox" id="student"><br />
+		<br />
+		Gender: 
+			male: <input type="radio" name="gender" value="male" id="gender_male"><br />
+			female: <input type="radio" name="gender" value="female" id="gender_female"><br />
+			other: <input type="radio" name="gender" value="other" id="gender_other"><br />
+		<br />
+		<input type="button" value="submit" onclick="displayFormContents();">
+	</form>
+</body>
+</html>
