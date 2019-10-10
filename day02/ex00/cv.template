@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CV HTML</title>
+  <style>
+	table {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+  
+  </style>
+</head>
+<body>
+	<h1>CV</h1>
+	<h3>{name}</h3>
+	<h4>{age}</h4>
+	<h4>{profession}</h4>
+	<table>
+		<tbody>
+		<tr>
+			<td>
+				Date
+			</td>
+			<td>
+				Parcours
+			</td>
+		</tr>
+		<tr>
+			<td>
+				2017-2019
+			</td>
+			<td style="border: 1px solid #424242">
+				école 42
+			</td>
+		</tr>
+		</tbody>
+	</table>
+
+	<h4>Compétences</h4>
+	<ul>
+		<li>C</li>
+		<li>C++</li>
+		<li>Javascript</li>
+		<li>Node</li>
+		<li>AWS</li>
+	</ul>
+</body>
+</html>
