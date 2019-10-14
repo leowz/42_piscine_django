@@ -1,3 +1,5 @@
+#!/usr/local/bin/python3
+
 import sys
 
 def get_state(test_str):

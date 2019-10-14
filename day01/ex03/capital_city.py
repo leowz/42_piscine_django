@@ -1,3 +1,5 @@
+#!/usr/local/bin/python3
+
 import sys
 
 def capital_city():

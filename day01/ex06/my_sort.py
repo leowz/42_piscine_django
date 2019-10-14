@@ -1,3 +1,5 @@
+#!/usr/local/bin/python3
+
 def cmp_by_year(e):
     return int(e[1]);
 
