@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'ex00',
+    'ex01'
 ]
 
 MIDDLEWARE = [
@@ -66,6 +68,8 @@ TEMPLATES = [
         },
     },
 ]
+
+STATIC_URL = '/static/'
 
 WSGI_APPLICATION = 'd04.wsgi.application'
 

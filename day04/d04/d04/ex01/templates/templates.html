@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}
+Ex01 : Moteur de template.
+{% endblock %}
+
+{% block style %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'style2.css' %}" />
+{% endblock %}
+
+{% block content %}
+
+<h3>Template engine</h3>
+<p>
+Template engines take in tokenized strings and produce rendered strings with values in place of the tokens as output. Templates are typically used as an intermediate format written by developers to programmatically produce one or more desired output formats, commonly HTML, XML or PDF.
+Template engines allow developers to generate desired content types, such as HTML, while using some of the data and programming constructs such as conditionals and for loops to manipulate the output. Template files that are created by developers and then processed by the template engine consist of prewritten markup and template tag blocks where data is inserted.
+</p>
+
+<h3>block</h3>
+block used to import and replace a block of code.
+
+<h3>for..in</h3>
+Loop over each item in an array. For example, to display a list of athletes provided in athlete_list:
+
+<h3>if condition</h3>
+Evaluates a variable, and if that variable is “true” the contents of the block are displayed
+
+<h3>variable</h3>
+<p>
+Variables look like this: {{ variable }}. When the template engine encounters a variable, it evaluates that variable and replaces it with the result. Variable names consist of any combination of alphanumeric characters and the underscore ("_") but may not start with an underscore. The dot (".") also appears in variable sections, although that has a special meaning, as indicated below. Importantly, you cannot have spaces or punctuation characters in variable names.</p>
+{% endblock %}
