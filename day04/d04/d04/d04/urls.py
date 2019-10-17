@@ -17,10 +17,12 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from ex00.views import render_index
 from ex02.views import render_form
+from ex03.views import show_table
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^ex00/?$', render_index),
     url(r'^ex01/?', include('ex01.urls')),
     url(r'^ex02/?', render_form),
+    url(r'^ex03/?', show_table),
 ]

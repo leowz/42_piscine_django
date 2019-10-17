@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>
+		{% block title %}
+		{% endblock  %}
+	</title>
+	{% if "templates" in title  %}
+	{% block style %}
+	{% endblock %}
+	{% else %}
+		{% load static %}
+		<link rel="stylesheet" type="text/css" href="{% static 'style1.css' %}" />
+	{% endif %}
+
+</head>
+<body>
+	<h1>
+		{{ title }}
+	</h1>
+	{% block content %}
+	{% endblock %}
+</body>
+</html>

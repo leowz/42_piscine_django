@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>
+		{% block title %}
+		{% endblock  %}
+	</title>
+		{% load static %}
+		<link rel="stylesheet" type="text/css" href="{% static 'style1.css' %}" />
+</head>
+<body>
+	<h1>
+		{{ title }}
+	</h1>
+	<table>
+	{% for i in range_list %}
+		<tr>
+			{% for m in col_list %}
+				{% if i %}
+					<td>{{ header[m] }}
+				{% else %}
+					<th class="head" data-line=i>
+				{% endif %}
+				{% if i %}
+					</td>
+				{% else %}
+					</th>
+				{% endif %}
+			{% endfor %}
+		</tr>
+	{% endfor %}
+	</table>	
+</body>
+</html>
