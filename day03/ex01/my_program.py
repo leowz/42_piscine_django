@@ -1,3 +1,4 @@
+#!/usr/local/bin/python3
 from local_lib.path import Path
 
 if __name__ == '__main__':
