@@ -16,10 +16,11 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 from ex00.views import render_index
-from django.http import HttpResponse
+from ex02.views import render_form
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^ex00/?$', render_index),
     url(r'^ex01/?', include('ex01.urls')),
+    url(r'^ex02/?', render_form),
 ]
