@@ -1,5 +1,5 @@
 table {
-	background-color: red; 
+	color: white;
 }
 
 table, th, td {
@@ -11,3 +11,72 @@ th,td{
 	height: 40px;
 	width: 80px;
 }
+
+*[data-color='noir'] {
+	background-color: black;
+}
+
+*[data-color='rouge'] {
+	background-color: red;	 
+}
+
+*[data-color='bleu'] {
+	background-color: blue;	 
+}
+
+*[data-color='vert'] {
+	background-color: green;	 
+}
+
+*[data-line='1']{ opacity: 0.98 }
+*[data-line='2']{ opacity: 0.96 }
+*[data-line='3']{ opacity: 0.94 }
+*[data-line='4']{ opacity: 0.92 }
+*[data-line='5']{ opacity: 0.9 }
+*[data-line='6']{ opacity: 0.88 }
+*[data-line='7']{ opacity: 0.86 }
+*[data-line='8']{ opacity: 0.84 }
+*[data-line='9']{ opacity: 0.82 }
+*[data-line='10']{ opacity: 0.8 }
+*[data-line='11']{ opacity: 0.78 }
+*[data-line='12']{ opacity: 0.76 }
+*[data-line='13']{ opacity: 0.74 }
+*[data-line='14']{ opacity: 0.72 }
+*[data-line='15']{ opacity: 0.7 }
+*[data-line='16']{ opacity: 0.68 }
+*[data-line='17']{ opacity: 0.66 }
+*[data-line='18']{ opacity: 0.64 }
+*[data-line='19']{ opacity: 0.62 }
+*[data-line='20']{ opacity: 0.6 }
+*[data-line='21']{ opacity: 0.58 }
+*[data-line='22']{ opacity: 0.56 }
+*[data-line='23']{ opacity: 0.54 }
+*[data-line='24']{ opacity: 0.52 }
+*[data-line='25']{ opacity: 0.5 }
+*[data-line='26']{ opacity: 0.48 }
+*[data-line='27']{ opacity: 0.46 }
+*[data-line='28']{ opacity: 0.44 }
+*[data-line='29']{ opacity: 0.42 }
+*[data-line='30']{ opacity: 0.4 }
+*[data-line='31']{ opacity: 0.38 }
+*[data-line='32']{ opacity: 0.36 }
+*[data-line='33']{ opacity: 0.34 }
+*[data-line='34']{ opacity: 0.32 }
+*[data-line='35']{ opacity: 0.3 }
+*[data-line='36']{ opacity: 0.28 }
+*[data-line='37']{ opacity: 0.26 }
+*[data-line='38']{ opacity: 0.24 }
+*[data-line='39']{ opacity: 0.22 }
+*[data-line='40']{ opacity: 0.2 }
+*[data-line='41']{ opacity: 0.18 }
+*[data-line='42']{ opacity: 0.16 }
+*[data-line='43']{ opacity: 0.14 }
+*[data-line='44']{ opacity: 0.12 }
+*[data-line='45']{ opacity: 0.1 }
+*[data-line='46']{ opacity: 0.08 }
+*[data-line='47']{ opacity: 0.06 }
+*[data-line='48']{ opacity: 0.04 }
+*[data-line='49']{ opacity: 0.02 }
+*[data-line='50']{ opacity: 0.0 }
+
+
