@@ -1,0 +1,14 @@
+{% block headlines %}
+ex05 remove
+{% endblock %}
+
+{% block content %} 
+<div>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form }}
+        <input type='submit' value='Submit'>
+    </form>
+</div>
+
+{% endblock %} 
