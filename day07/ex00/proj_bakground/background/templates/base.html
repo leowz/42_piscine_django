@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    {% block headlines %}
+    {% endblock %}
+  </title>
+
+</head>
+<body>
+    <p>Choose files :</p >
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Submit">
+    </form>
+    <ul>
+    {% for file in files %}
+        <li>
+            <img src={{ file.file.url }} alt="can not load" width="50">
+            <a href={{ file.file.url }} >
+                {{ file.name }}
+            </a>
+        </li>
+        {% empty %}
+        No file yet.
+    {% endfor %}
+    </ul>
+</body>
+</html>
