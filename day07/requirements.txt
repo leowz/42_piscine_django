@@ -4,4 +4,4 @@ django-bootstrap4==1.0.1
 psycopg2==2.8.4
 pytz==2019.3
 soupsieve==1.9.4
-sqlparse==0.3.0
+sqlparse==0.4.4
